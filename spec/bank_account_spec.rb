@@ -83,4 +83,5 @@ describe BankAccount do
       it "raises error and subtracts overdraft fee"
       expect {account.balance}.to eq(-36)
     end
+
 end
